@@ -35,13 +35,18 @@
 
 首页：
 
+![avatar](https://github.com/NoelWtl/Smzdm/blob/master/showPage/index.png?raw=true)
 
+![avatar](https://github.com/NoelWtl/Smzdm/blob/master/showPage/index2.png?raw=true)
 
-![avatar](https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3490432717,1147577680&fm=173&app=25&f=JPG?w=218&h=146&s=AC8227D91052D1DC5031F81D030030C7)
-
-
+![avatar](https://github.com/NoelWtl/Smzdm/blob/master/showPage/list.png?raw=true)
 
 详情页：
 
+![avatar](https://github.com/NoelWtl/Smzdm/blob/master/showPage/detail.png?raw=true)
+
 注册登陆页：
 
+![avatar](https://github.com/NoelWtl/Smzdm/blob/master/showPage/login.png?raw=true)
+
+![avatar](https://github.com/NoelWtl/Smzdm/blob/master/showPage/reg.png?raw=true)
