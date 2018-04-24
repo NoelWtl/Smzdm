@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="什么值得买，购物">
+        <!-- 引入公共样式 -->
+        <link rel="stylesheet" href="./assets/css/commend.css">
+        <!-- 引入住样式文件 -->
+        <link rel="stylesheet" href="./assets/css/show.css">
+        <!-- 引入登录注册样式表 -->
+        <link rel="stylesheet" href="./assets/css/login.css">
+        <!-- 引入重置样式 -->
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <!-- 引入字体文件 -->
+        <link rel="stylesheet" href="./assets/fonts/iconfont.css">
+        <!-- 引入浏览器图标 -->
+        <link rel="shortcut icon" href="./assets/icon/favicon.ico">
+        <!-- 引入jq文件 -->
+        <script src="./assets/js/jquery.min.js"></script>
+        <!-- 引入主js文件 -->
+        <script src="./assets/js/show.js"></script>
+        <!-- 引入登录注册js -->
+        <script src="./assets/js/login.js"></script>
+        <!-- 引入swipercss样式 -->
+        <link rel="stylesheet" href="./assets/swiper/css/swiper.min.css">
+        <!-- 引入swiper插件 -->
+        <script src="./assets/swiper/js/swiper.min.js"></script>
+        <title></title>
+    </head>
+    <body>
+     <!-- Navigation导航栏开始 -->
+        <div class="Navigation">
+            <div class="Nav-content clearfix">
+                <!-- 左边导航信息开始 -->
+                <ul class="Nav-list-left clearfix"> 
+                    <li><a href="index.html" alt="">首页</a></li>
+                    <li>
+                        <a href="" alt="">好价<i class="iconfont icon-xiangxia"></i></a>
+                        <!-- 导航内容弹出开始 -->
+                        <ul class="Nav-pop">
+                            <li><a href="" alt="">精选</a></li>
+                            <li><a href="" alt="">发现</a></li>
+                            <li><a href="" alt="">优惠劵</a></li>
+                            <li><a href="" alt="">白菜</a></li>
+                            <li><a href="" alt="">闲值</a></li>
+                        </ul>
+                        <!-- 导航内容弹出结束 -->
+                    </li>
+                    <li><a href="" alt="">好物<i class="iconfont icon-xiangxia"></i></a>
+                          <!-- 导航内容弹出开始 -->
+                        <ul class="Nav-pop">
+                            <li><a href="" alt="">消费众测</a></li>
+                            <li><a href="" alt="">新锐品牌</a></li>
+                            <li><a href="" alt="">好物榜单</a></li>
+                        </ul>
+                        <!-- 导航内容弹出结束 -->
+                    </li>
+                    <li><a href="" alt="">好文<i class="iconfont icon-xiangxia"></i></a>
+                          <!-- 导航内容弹出开始 -->
+                        <ul class="Nav-pop">
+                            <li><a href="" alt="">原创</a></li>
+                            <li><a href="" alt="">资讯</a></li>
+                        </ul>
+                        <!-- 导航内容弹出结束 -->
+                    </li>
+                    <li><a href="" alt="">海淘<i class="iconfont icon-xiangxia"></i></a>
+                          <!-- 导航内容弹出开始 -->
+                        <ul class="Nav-pop">
+                            <li><a href="" alt="">海淘礼物季</a></li>
+                            <li><a href="" alt="">淘遍世界</a></li>
+                            <li><a href="" alt="">海淘优惠码</a></li>
+                            <li><a href="" alt="">亚马逊专区</a></li>
+                            <li><a href="" alt="">淘金V计划</a></li>
+                        </ul>
+                        <!-- 导航内容弹出结束 -->
+                    </li>
+                    <li><a href="" alt="">更多<i class="iconfont icon-xiangxia"></i></a>
+                          <!-- 导航内容弹出开始 -->
+                        <ul class="Nav-pop">
+                            <li><a href="" alt="">值友福利</a></li>
+                            <li><a href="" alt="">金融</a></li>
+                            <li><a href="" alt="">汽车</a></li>
+                            <li><a href="" alt="">旅游</a></li>
+                            <li><a href="" alt="">商品百科</a></li>
+                            <li><a href="" alt="">品类导航</a></li>
+                            <li><a href="" alt="">品牌导航</a></li>
+                            <li><a href="" alt="">商家导航</a></li>
+                            <li><a href="" alt="">专题汇总</a></li>
+                            <li><a href="" alt="">招聘专区</a></li>
+                        </ul>
+                        <!-- 导航内容弹出结束 -->
+                    </li>
+                </ul>
+                <!-- 左边导航信息结束 -->
+                <!-- 右边导航信息开始 -->
+                <div class="Nav-list-right clearfix">
+                    <ul class="Nav-list-right-small-left">
+                        <li><a href="" alt="">App下载</a>
+                             <!-- 导航内容弹出开始 -->
+                            <ul class="Nav-pop-code">
+                                <li>
+                                    <a href="" alt="">
+                                        <img src="./assets/images/erweima.png" alt="二维码">
+                                        <span>App 下载</span>
+                                        <span>领取5金币</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- 导航内容弹出结束 -->
+                        </li>
+                        <li><a href="" alt="">爆料投稿<i class="iconfont icon-xiangxia"></i></a>
+                            <!-- 导航内容弹出开始 -->
+                            <ul class="Nav-pop">
+                                <li><a href="" alt="">好价爆料</a></li>
+                                <li><a href="" alt="">分享商品</a></li>
+                                <li><a href="" alt="">原创投稿</a></li>
+                            </ul>
+                            <!-- 导航内容弹出结束 -->
+                        </li>
+                    </ul>
+                    <div class="Nav-list-right-small-right">
+                        <a href="" alt="" class="Login-way">登录</a>
+                        <a href="" alt="" class="Login-register">注册</a>
+                    </div>
+                </div>
+                <!-- 右边导航信息结束 -->
+            </div>
+        </div>
+        <!-- Navigation导航栏结束 --> 
+         <!-- 锚点导航栏开始 -->
+        <!-- 左边导航栏开始 -->
+             <div class="Navigation-Anchor Anchor-left">
+                <ul class="Navigation-Anchor-list">
+                    <li class="Navigation-show">
+                        <a href="" alt="">
+                            <i class="iconfont icon-xingxing"></i>
+                            <span class="Click-nums">2</span>
+                        </a>
+                    </li>
+                    <li class="Navigation-show">
+                        <a href="" alt="">
+                            <i class="iconfont icon-xinxi1"></i>
+                            <span class="Click-nums">2</span>
+                        </a>
+                    </li>  
+                    <li class="Navigation-show">
+                        <a href="" alt="">
+                            <i class="iconfont icon-fenxiang"></i>
+                        </a>
+                        <div class="Anchor-share">
+                            <ul class="Anchor-share-list clearfix">
+                                <li><a href="" alt="">一键分享</a></li>
+                                <li><a href="" alt="">QQ空间</a></li>
+                                <li><a href="" alt="">新浪微博</a></li>
+                                <li><a href="" alt="">百度云收藏</a></li>
+                                <li><a href="" alt="">微信</a></li>
+                                <li><a href="" alt="">人人网</a></li>
+                                <li><a href="" alt="">腾讯微博</a></li>
+                                <li><a href="" alt="">百度相册</a></li>
+                                <li><a href="" alt="">开心网</a></li>
+                                <li><a href="" alt="">腾信朋友</a></li>
+                                <li><a href="" alt="">百度贴吧</a></li>
+                                <li><a href="" alt="">豆瓣网</a></li>
+                                <li><a href="" alt="">百度新首页</a></li>
+                                <li><a href="" alt="">QQ好友</a></li>
+                                <li><a href="" alt="">和讯微博</a></li>
+                                <li><a href="" alt="">和百度中心</a></li>
+                            </ul>
+                            <div class="share-More clearfix"><a href="" alt="">更多...</a></div>
+                        </div>
+                    </li>  
+                </ul>
+                <div class="code-phone clearfix">
+                    <img src="./assets/images/erweima1.png" alt="">
+                    <div class="pop-code">
+                        <img src="./assets/images/pop-code.jpg" alt="">
+                        <p>扫一下，分享更方便，购买更轻松</p>
+                    </div>
+                </div>
+            </div>
+        <!-- 左边导航栏结束 -->
+         <!-- 右边锚点导航栏开始 -->
+            <div class="Navigation-Anchor">
+                <ul class="Navigation-Anchor-list">
+                    <li class="Navigation-show Show-up">
+                        <a href="" alt="">
+                            <i class="iconfont icon-msnui-menu-up"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" alt="">
+                            <i class="iconfont icon-24"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 右边导航栏结束 -->
+            <!-- 锚点导航栏结束 -->
+        <!-- logo-search开始 -->
+        <div class="logo-search">
+            <div class="logo-contains clearfix">
+                <div class="logo-img">
+                    <a href="" alt=""><img src="./assets/images/logo.png" alt=""></a>
+                </div>
+                <div class="Discount">
+                    <a href="" alt="">国内优惠</a>
+                </div>
+                <form>
+                    <div class="form-search">
+                        <div class="form-search-contains">
+                            <input type="text" name="search" value="" placeholder="母婴用品" class="search" >
+                            <button><i class="iconfont icon-sousuo1"></i></button> 
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- logo-search結束 -->
+        <!-- content内容开始 -->
+        <div class="content clearfix">
+        <!-- content-left内容开始 -->
+            <div class="content-left">
+            <!-- 头部开始 -->
+                <div class="content-left-crumbs">
+                    <span class="now">当前位置:</span>
+                    <ul class="clearfix">
+                        <li>首页></li>
+                        <li>汽车消费></li>
+                        <li>汽车整车></li>
+                        <li>轿车></li>
+                        <li>紧凑型车></li>
+                        <li>
+                            <span class="last">文章详情</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 头部结束 -->
+                <!-- 汽车详情开始 -->
+                <div class="car-content clearfix">
+                <!-- 左边图片区域 -->
+                    <div class="car-content-left">
+                        <img src="./assets/images/5a69e99a557709937.jpg_d250.jpg" alt="">
+                    </div>
+                <!-- 右边信息区域 -->
+                    <div class="car-content-right">
+                        <h3>购车必看： GEELY 吉利汽车 帝豪 GL<span>1460元礼包<span></h3>
+                        <div class="car-content-right-Msg">
+                            <div class="Msg-time clearfix">
+                                <span>爆料人：商家自荐</span>
+                                <div class="Msg-time-title">
+                                    <img src="./assets/images/meta_tip_icon.png" alt="">
+                                    <div class="Msg-time-title-pop">
+                                        好价信息来自热心值友爆料和商家自荐，经小编人工审核或小值机器人智能判断后发布。
+                                    </div>
+                                </div>
+                                <span>更新时间：01-22 19:10</span>
+                            </div>
+                            <div class="car-follow clearfix">
+                                <span>推荐关注:</span>
+                                <ul class="car-follow-list clearfix">
+                                    <li>
+                                        <a href="" alt="">易车</a>
+                                        <div class="car-follow-pop">
+                                            <span>商城：易车</span>
+                                            <a href="" alt="">+ 关注</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="" alt="">紧凑型车</a>
+                                        <div class="car-follow-pop">
+                                            <span>商城：易车</span>
+                                            <a href="" alt="">+ 关注</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="" alt="">GEELY/吉利汽车</a>
+                                        <div class="car-follow-pop">
+                                            <span>商城：易车</span>
+                                            <a href="" alt="">+ 关注</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="" alt="">优惠精选</a>
+                                        <div class="car-follow-pop">
+                                            <span>商城：易车</span>
+                                            <a href="" alt="">+ 关注</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="" alt="">购车必看</a>
+                                        <div class="car-follow-pop">
+                                            <span>商城：易车</span>
+                                            <a href="" alt="">+ 关注</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                     <a href="" alt="">汽车整车</a>
+                                     <div class="car-follow-pop">
+                                            <span>商城：易车</span>
+                                            <a href="" alt="">+ 关注</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="car-follow-buy">
+                                    去购买<i class="iconfont icon-msnui-menu-down"></i>
+                                    <div class="car-follow-buy-pop clearfix">
+                                        <ul>
+                                            <li>手机直达</li>
+                                            <li>PC直达</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- 结束信息区域 -->
+                </div>
+                <!-- 汽车详情结束 -->
+            <!-- 汽车大图开始 -->
+                <div class="car-big-img">
+                    <div class="big-img-first">
+                        <p>与4S店内优惠同享~</p>
+                        <p>吉利家轿的新一代车型——帝豪GL，动力总成上搭载1.3T/1.8L+6档手动/6档双离合变速箱。售价7.88万-11.38万元。</p>
+                        <img src="./assets/images/car-content-img.jpg" alt="">
+                    </div>
+                    <div class="big-img-second">
+                        <p class="car-face">外形方面，吉利帝豪拥有与博瑞、博越类似的回纹家族式前脸，并用镀铬材质突出了细节质感。全系标配的LED日间行<a href="" alt="">车灯</a>和LED光导尾灯成为了点睛之笔。</p>
+                        <img src="./assets/images/car-content-img2.jpg" alt="">
+                    </div>
+                    <div class="big-img-third">
+                        <p>近日，易车推出了帝豪GL的线上专享购车方案，通过“直达链接”下单即可享受以下优惠，感兴趣的只有不妨领券防身，然后再到4S店任性砍价</p>
+                        <img src="./assets/images/car-content-img3.jpg" alt="">
+                    </div>
+                    <div class="big-img-fourth">
+                        <ul class="big-img-fourth-list">
+                            <li>前100名成功购车的并回传发票的值友即可获赠1460元购车礼包（700元行车记录仪+300元道路救援卡+100元洗车券+260元养车券+100元车载净化器优惠券）</li>
+                        </ul>
+                        <img src="./assets/images/car-content-img4.jpg" alt="">
+                        <img src="./assets/images/car-content-img5.jpg" alt="">
+                    </div>
+                     <!-- welcome开始 -->
+                    <div class="welcome-attention">
+                        <p><storng>丨精选汽车内容及重磅车品优惠</strong>，欢迎关注<a href="" alt="">“汽车小小值”</a>。更多优惠和内容，也可关注什么值得买汽车频道：</p>
+                        <div class="Car-channel">
+                            <div class="Car-channel-content clearfix">
+                                <img src="./assets/images/Car-channel-content.jpg" alt="">
+                                <div class="Car-channel-content-right">
+                                    <h3><a href="" alt="">什么值得买——“汽车消费”频道</a></h3>
+                                    <span>什么值得买“汽车消费”频道，为广大值友提供汽车报价、汽车图片，汽车试驾分享、汽车资讯，并有数十万值友点评，帮助广大值友们选择什么汽车值得买。</span>
+                                    <div class="Car-channel-content-right-Tolook">
+                                        <a href="" alt="">auto.smzdm.com</a>
+                                        <a href="" alt="" class="Tolook">去看看</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- pc app段开始 -->
+                            <div class="Pc">年货好礼来，相约值得买，什么值得买（SMZDM.COM）开启了“买得值 过好年”年货大集专题（<a href="" alt="">PC端</a>|<a href="" alt="">APP端</a>），衣食住行，汇集一众过年需备好物，专题页面评论还可获得过年专属“福”字勋章，送你一年“值”有一次的大波福利，还不快来！
+                            </div>
+                            <!-- pc app段结束 -->
+                        </div>
+                    </div>
+                    <!-- welcome结束 -->
+                </div>
+                <!-- 汽车大图结束 -->
+                <!-- 值不值得开始 -->
+                <div class="Mark">
+                    <p>什么值得买是一家中立的消费门户网站，好价信息来自热心值友爆料和商家自荐，经小编人工审核或小值机器人智能判断后发布。促销折扣可能随时变化，请值友们购买前注意核实。</p>
+                    <div class="Mark-Report clearfix">
+                        <span>我要举报:</span>
+                        <ul class="clearfix">
+                            <li><a href="" alt="">已涨价</a></li>
+                            <li><a href="" alt="">已售罄</a></li>
+                            <li>
+                                <a href="" alt="" class="">其他举报</a>
+                                <div class="prot">
+                                    <div class="prot-contains">
+                                        <form>
+                                            <p>请选择举报理由：</p>
+                                            <ul>
+                                                <li>
+                                                    <input type="checkbox" name="" value="">劣质商品</li>   
+                                                <li>
+                                                    <input type="checkbox" name="" value="">信息涉及黄色，反动内容</li>
+                                                <li>
+                                                    <input type="checkbox" name="" value="">虚假优惠信息</li>   
+                                                <li class="special">
+                                                    <div>
+                                                        <input type="checkbox" name="" value="">其他
+                                                    </div>
+                                                    <input type="text" name="text" value="" placeholder="请输入不值理由">
+                                                </li>
+                                            </ul>
+                                            <button>确认提交</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 举报结束 -->
+                    <!-- 投票开始 -->
+                    <div class="Vote clearfix">
+                        <div class=" VoteB Vote-left">
+                            <a href="" alt="">值</a>
+                        </div>
+                        <div class="Vote-contains">
+                            <p>已有<span>68</span>用户参与</p>
+                            <div class="Progress-bar">
+                                <div class="Progress-bar-go"></div>
+                            </div>
+                            <div class="Progress-bar-num">
+                                <span style="color:red"></span> :
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class=" VoteB Vote-right">
+                            <a href="" alt="">值</a>
+                        </div>
+                    </div>
+                    <!-- 投票结束 -->
+                </div>
+                <!-- 值不值得结束 -->
+                <!-- 文章开始 -->
+                <div class="page">
+                    <div class="top clearfix">
+                        <div class="page-left clearfix">
+                            <span>上一篇</span>
+                            <a href="" alt="">巧克力夹心网红脏脏包160g</a>   
+                        </div>
+                        <div class="page-right clearfix">
+                            <i class="iconfont icon-xingxing1"> 2</i>
+                            <i class="iconfont icon-xinxi"> 9</i>
+                            <a href="" alt="">分享+</a>     
+                        </div>
+                    </div> 
+                    <div class="top clearfix">
+                        <div class="page-left clearfix">
+                            <span>上一篇</span>
+                            <a href="" alt="">lecoqsportif乐卡克法国公鸡男休闲运动T恤CBT-0101171</a>   
+                        </div>
+                    </div>
+                </div>
+                <!-- 文章结束 -->
+                <!-- 轮播图开始 -->
+                <div class="slide">
+                <!-- 头部开始 -->
+                    <div class="slide-header">
+                        <span>你可能还喜欢</span>
+                        <span class="slide-index">1/2</span>
+                    </div>
+                <!-- 头部结束 -->
+                <!-- 你可能还喜欢轮播开始 -->
+                <!-- l轮播开始 -->
+                 <!-- Swiper -->
+                  <div class="swiper-container slide-run-big">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <img src="./assets/images/5a69ec80cf2a74729.jpg_d200.jpg" alt="">
+                          <a href="" alt="">90元到手 BOSCH 博世原装无骨雨刷专用大众车系 比利时进口<span> 90元（需用券）</span></a>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./assets/images/5a69e7cb179641603.jpg_d200.jpg" alt="">
+                          <a href="" alt="">车榜单： SUV销量与价格优惠排行<span>2017年12月</span></a>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./assets/images/5a6aa37b02cde4714.jpg_d200.jpg" alt="">
+                          <a href="" alt="">岳迩 车载磁性手机支架<span>9.9元包邮（需用券）</span></a>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./assets/images/5a0e27b6c2ea15438.jpg_d200.jpg" alt="">
+                         <a href="" alt="">Shell 壳牌 Helix Ultra 超凡灰喜力 0W-30 灰壳A5/B5 SL 全合成机油 1L *8件 <span>315.12元包邮包税（合39.39元/件）</span></a>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./assets/images/5a4ddd2193bd75250.jpg_d200.jpg" alt="">
+                        <a href="" alt="">Bluestar 蓝星冬季防冻车用玻璃水-30℃ 2L <span> 9.9元包邮</span></a>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./assets/images/5a05ad04b51212147.jpg_d200.jpg" alt="">
+                       <a href="" alt="">GREAT LIFE 汽车丝圈脚垫<span>99元包邮（需用券）</span></a>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./assets/images/584e291dc25d83779.jpg_d200.jpg" alt="">
+                        <a href="" alt="">Shell 壳牌 全合成机油 超凡喜力Helix ultra 0W-40 A3/B4 SN 5L <span>2017年12月</span></a>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./assets/images/5a33bffb9f917457.jpg_d200.jpg" alt="">
+                       <a href="" alt="">新车预售： 宝骏 530 全新紧凑型SUV<span>2017年12月</span></a>
+                      </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next slide-run-big-buttoms">
+                        <i class="iconfont icon-youjiantou"></i>
+                    </div>
+                    <div class="swiper-button-prev slide-run-big-buttoms">
+                        <i class="iconfont icon-zuojiantou"></i>
+                    </div>
+                  </div>
+              <!-- Swiper JS -->
+                <!-- l轮播结束 -->
+                </div>
+                <!-- 轮播图结束 -->
+                <!-- 你可能还喜欢轮播结束 -->
+                <!-- 评论开始 -->
+                <div class="comment">
+                    <p>评论<span>(9)</span></p>
+                    <div class="comment-content clearfix">
+                        <img src="./assets/images/default_small.png" alt="">
+                        <form class="clearfix">
+                            <textarea></textarea>
+                            <div class="comment-submit">提交</div>
+                        </form>
+                        <div class="fly-comment">发表评论请<a href="" alt="">登录</a></div>
+                    </div>
+                    <!-- 评论列表开始 -->
+                    <div class="comment-list">
+                        <div class="comment-list-header">
+                            <ul class="clearfix">
+                                <li>最新</li>
+                                <li>最热</li>
+                            </ul>
+                        </div>
+                        <div class="comment-list-show">
+                            <ul>
+                            <!-- 列表开始 -->
+                                <li class="clearfix">
+                                    <div class="comment-list-show-left">
+                                        <img src="./assets/images/56cc22fd1f571-small.jpg" alt="">
+                                        <span>8楼</span>
+                                    </div>
+                                    <div class="comment-list-show-right">
+                                        <div class="conmment-list-show-right-top clearfix">
+                                            <span><a href="" alt="">独眼浪</a></span>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <div class="conmment-list-show-right-top-right">01-23 14:06</div>
+                                        </div>
+                                        <div class="say-comment">
+                                            易车的1460常年都有，真不知道优惠在哪里
+                                        </div>
+                                        <div class="way-comment">
+                                        <div class="way-comment-left">来自<a href ="" alt="">iPhone 客户端</a></div>
+                                            <div class="way-comment-right">
+                                                <a href="" alt="">举报</a>
+                                                <a href="" alt="">顶(0)</a>
+                                                <a href="" alt="">踩(0)</a>
+                                                <a href="" alt="">@TA</a>
+                                                <a href="" alt="">回复</a> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- 列表结束 --> 
+                                <!-- 列表开始 -->
+                                <li class="clearfix">
+                                    <div class="comment-list-show-left">
+                                        <img src="./assets/images/56cc257e9b78b-small.jpg" alt="">
+                                        <span>8楼</span>
+                                    </div>
+                                    <div class="comment-list-show-right">
+                                        <div class="conmment-list-show-right-top clearfix">
+                                            <span><a href="" alt="">众泰汽车首席执行官</a></span>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <div class="conmment-list-show-right-top-right">01-23 14:06</div>
+                                        </div>
+                                        <div class="say-comment">
+                                            我是车主，说实话，太他妈差了
+                                        </div>
+                                        <div class="way-comment">
+                                        <div class="way-comment-left">来自<a href ="" alt=""> Android 客户端</a></div>
+                                            <div class="way-comment-right">
+                                                <a href="" alt="">举报</a>
+                                                <a href="" alt="">顶(0)</a>
+                                                <a href="" alt="">踩(0)</a>
+                                                <a href="" alt="">@TA</a>
+                                                <a href="" alt="">回复</a> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- 列表结束 -->
+                                <!-- 列表开始 -->
+                                <li class="clearfix">
+                                    <div class="comment-list-show-left">
+                                        <img src="./assets/images/56cc235431ade-small.jpg" alt="">
+                                        <span>8楼</span>
+                                    </div>
+                                    <div class="comment-list-show-right">
+                                        <div class="conmment-list-show-right-top clearfix">
+                                            <span><a href="" alt="">裤衩里的大秘密</a></span>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <div class="conmment-list-show-right-top-right">01-23 14:06</div>
+                                        </div>
+                                        <div class="say-comment">
+                                            发动机和变速箱太特么的差了
+                                        </div>
+                                        <div class="way-comment">
+                                        <div class="way-comment-left">来自<a href ="" alt="">iPhone 客户端</a></div>
+                                            <div class="way-comment-right">
+                                                <a href="" alt="">举报</a>
+                                                <a href="" alt="">顶(0)</a>
+                                                <a href="" alt="">踩(0)</a>
+                                                <a href="" alt="">@TA</a>
+                                                <a href="" alt="">回复</a> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- 列表结束 --> 
+                                <!-- 列表开始 -->
+                                <li class="clearfix">
+                                    <div class="comment-list-show-left">
+                                        <img src="./assets/images/56cc1d63ed491-small.jpg" alt="">
+                                        <span>板凳</span>
+                                    </div>
+                                    <div class="comment-list-show-right">
+                                        <div class="conmment-list-show-right-top clearfix">
+                                            <span><a href="" alt="">蘑菇炖肥肠</a></span>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <div class="conmment-list-show-right-top-right">01-23 14:06</div>
+                                        </div>
+                                        <div class="say-comment">
+                                            听说这车挺烂。？
+                                        </div>
+                                        <div class="way-comment">
+                                        <div class="way-comment-left">来自<a href ="" alt="">iPhone 客户端</a></div>
+                                            <div class="way-comment-right">
+                                                <a href="" alt="">举报</a>
+                                                <a href="" alt="">顶(0)</a>
+                                                <a href="" alt="">踩(0)</a>
+                                                <a href="" alt="">@TA</a>
+                                                <a href="" alt="">回复</a> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- 列表结束 -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 评论列表结束 -->
+                </div>
+                <!-- 评论结束 -->
+            </div>
+            <!-- content-left内容结束 -->
+
+            <!-- 右 -->
+            <!-- 右 -->
+            <!-- content-right内容开始 -->
+            <div class="content-right clearfix">
+                <!-- 国内优惠开始 -->
+                <div class="Country-buy">
+                    <!-- 头部开始 -->
+                    <div class="Country-buy-header">
+                        <div>
+                            <i class="iconfont icon-weibo3" style="color:#EC7E57"></i>
+                            <div class="icon-pop">
+                                关注什么值得买微博
+                            </div>
+                        </div>
+                        <div>
+                            <i class="iconfont icon-weixin2" style="color:#9BC47D"></i>
+                            <div class="icon-pop">
+                                <img src="./assets/images/qrcode.png" alt="" style="width:130px;height:130px;">
+                                <span>微信号：smzdm_smzdm</span>
+                            </div>
+                        </div>
+                        <div><i class="iconfont icon-wift-0" style="color:#F1CE70"></i></div>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div><i class="iconfont icon-shoujidaoshouji"></i><a href="" alt="">应用中心 ></a></div>
+                    </div>
+                    <!-- 头部结束 -->
+                    <!-- 内容开始 -->
+                    <div class="Country-buy-content">
+                        <p><strong style="font-weight:bold">国内优惠：</strong>海量网友爆料+编辑精选的国内超值好价商品，每款推荐都精挑细选，且有详实的网友点评。</p>
+                        <!-- 爆料按钮开始 -->
+                        <div class="Buy-bao"><a href="" alt=""> + 我要爆料</a></div>
+                        <!-- 爆料按钮结束 -->
+                    </div>
+                    <!-- 内容结束 -->
+                </div>
+                <!-- 国内优惠结束 -->
+                <!-- 广告开始 -->
+                <div class="New">
+                    <img src="./assets/images/imgad.jpg" alt="">
+                </div>
+                <!-- 广告结束 -->
+                <!-- 相关原创开始 -->
+                <div class="create clearfix">
+                    <div class="create-header">
+                        <span>相关原创</span>
+                    </div>
+                    <div class="create-content">
+                        <ul class="create-content-list Create-lister clearfix">
+                            <li class="clearfix active">
+                                <img src="./assets/images/59ac0c47622fc8302.jpg_a80 (1).jpg" alt="">
+                                <a href="" alt="">买二手车的乐趣 — 第一次买二手车</a>
+                                <div class="special-good clearfix">
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         赞2159
+                                    </a>
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         评论13
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <img src="./assets/images/596717d61da369657.jpg_a80.jpg" alt="">
+                                <a href="" alt="">奥迪 A3 一年的心路历程</a>
+                                <div class="special-good clearfix">
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         赞2159
+                                    </a>
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         评论13
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <img src="./assets/images/5947b313988ab8432.jpg_a80.jpg" alt="">
+                                <a href="" alt="">「值译站」No.4：美媒找来8款紧凑型轿车横评，到底谁最强？</a>
+                                <div class="special-good clearfix">
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         赞2159
+                                    </a>
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         评论13
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <img src="./assets/images/5930dc9ea4b579136.jpg_a80.jpg" alt="">
+                                <a href="" alt="">评车场No.22： 10万出头买谁，昂克赛拉1.5L vs 三缸思域？</a>
+                                <div class="special-good clearfix">
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         赞2159
+                                    </a>
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         评论13
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <img src="./assets/images/5a69a347e505a7775.jpg_a80.jpg" alt="">
+                                <a href="" alt="">搬砖女民工 十年驾龄来说车 篇一：现代雅绅特 2009款 手动舒适型1.4L</a>
+                                <div class="special-good clearfix">
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         赞2159
+                                    </a>
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         评论13
+                                    </a>
+                                </div>
+                            </li>
+                        <ul>
+                    </div>
+                </div>
+                <!-- 相关原创结束 -->
+                <!-- 广告开始 -->
+                <div class="New">
+                    <img src="./assets/images/imgad (1).jpg" alt="">
+                </div>
+                <!-- 广告结束 -->
+                <!-- 最新发现开始 -->
+                <div class="Ranking-big-header">
+                    <!-- 最新发现头部开始 -->
+                    <div class="Ranking-header Super clearfix">
+                        <span class="active"><a href="" alt="">最新发现</a></span>
+                        <span><a href="" alt="">热门发现</a></span>
+                        <div><a href="" alt="">更多 ></a></div>
+                    </div>
+                    <!-- 最新发现头部结束 -->
+                    <!-- 最新发现列表开始 -->
+                    <div class="Super-lister">
+                        <ul class="Super-list clearfix super-lister-one">
+                            <li>
+                                <img src="./assets/images/Super.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./assets/images/Super1.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./assets/images/Super2.jpg" alt="">
+                            </li> 
+                            <li>
+                                <img src="./assets/images/Super3.jpg" alt="">
+                            </li> 
+                            <li>
+                                <img src="./assets/images/Super4.jpg" alt="">
+                            </li> 
+                            <li>
+                                <img src="./assets/images/Super5.jpg" alt="">
+                            </li> 
+                            <li>
+                                <img src="./assets/images/Super6.jpg" alt="">
+                            </li> 
+                            <li>
+                                <img src="./assets/images/Super7.jpg" alt="">
+                            </li> 
+                            <li>
+                                <img src="./assets/images/Super8.jpg" alt="">
+                            </li>
+                        </ul>              
+                        <!-- 最新发现列表开始 -->
+                        <ul class="Super-list clearfix super-lister-two">
+                            <li>
+                                <img src="./assets/images/5a6ded58e48983486.jpg_a100.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./assets/images/5a6621f4b4adb8133.jpg_a100.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="./assets/images/5a5d5caeeabfc3120.jpg_a100.jpg" alt="">
+                            </li> 
+                            <li>
+                                <img src="./assets/images/5a6dec7d2c8ed8352.png_a100.jpg" alt="">
+                            </li> 
+                            <li>
+                                <img src="./assets/images/5a6dec398926a4439.jpg_a100.jpg" alt="">
+                            </li> 
+                            <li>
+                                <img src="./assets/images/5a6dec28bad0e6762.jpg_a100.jpg" alt="">
+                            </li> 
+                            <li>
+                                <img src="./assets/images/5a6dec0e9fc0b6699.jpg_a100.jpg" alt="">
+                            </li> 
+                            <li>
+                                <img src="./assets/images/5a6debd56202893.jpg_a100.jpg" alt="">
+                            </li> 
+                            <li>
+                                <img src="./assets/images/5a6deb64c7b646576.jpg_a100.jpg" alt="">
+                            </li>
+                        </ul>              
+                    <!-- 最新发现列表结束 -->
+                    </div>
+                    <!-- 最新发现列表结束 -->
+                </div>
+                <!-- 最新发现结束 -->
+                <!-- 广告开始 -->
+                <div class="New">
+                    <img src="./assets/images/imgad.jpg" alt="">
+                </div>
+                <!-- 广告结束 -->
+                <!-- 热门优惠券开始 -->
+                <div class="create clearfix">
+                    <div class="create-header">
+                        <span>热门优惠券</span>
+                        <div><a href="" alt="">更多 ></a></div>
+                    </div>
+                    <div class="create-content">
+                        <ul class="create-content-list Discount-lister">
+                            <li class="clearfix active">
+                                <img src="./assets/images/26c8c6d6.jpg" alt="">
+                                <a href="" alt="">天猫 2018年货节 超级红包 最高可领1000元现金红包</a>
+                                <div class="special-good clearfix">
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         赞2159
+                                    </a>
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         评论13
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <img src="./assets/images/580dbdf2d8fa61656.jpg" alt="">
+                                <a href="" alt="">京东超市 京年有口福 免费领6元免邮券</a>
+                                <div class="special-good clearfix">
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         赞2159
+                                    </a>
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         评论13
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <img src="./assets/images/580dbdf2d8fa61656.jpg" alt="">
+                                <a href="" alt="">京东 全品类满159-10/299-20元，女装149-20/8.8折优惠券</a>
+                                <div class="special-good clearfix">
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         赞2159
+                                    </a>
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         评论13
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <img src="./assets/images/580dbdf2d8fa61656.jpg" alt="">
+                                <a href="" alt="">京东 免邮券&全品类满199-10、299-15、399-20、450-35元优惠券</a>
+                                <div class="special-good clearfix">
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         赞2159
+                                    </a>
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         评论13
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <img src="./assets/images/26c8c6d6.jpg" alt="">
+                                <a href="" alt="">天猫好券快报 搜券神器 让隐藏券无所遁形</a>
+                                <div class="special-good clearfix">
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         赞2159
+                                    </a>
+                                    <a href="" alt="" class="Worth-going-buy-left-R">
+                                         评论13
+                                    </a>
+                                </div>
+                            </li>
+                        <ul>
+                    </div>
+                </div>
+                <!-- 热门优惠券结束 -->
+
+                <!-- 消费众测开始 -->
+                <div class="pay">
+                    <!-- 轮播图开始 -->
+                    <!-- 头部开始 -->
+                    <div class="pay-header">
+                        <span>消费众测</span>
+                        <a href="" alt="">更多 ></a>
+                    </div>
+                    <!-- 头部结束 -->
+                      <!-- Swiper -->
+                      <div class="swiper-container pay-slide">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="./assets/images/5a687451348ce5278.jpg_f300.jpg" alt="">
+                            <p class="clearfix">
+                                <span>KittenBot迷你巡线小车（豪华版）</span>
+                                <a href="" alt="">立即申请</a>
+                            </p>
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./assets/images/5a65be92c13c05112.png_f300.jpg" alt="">
+                            <p class="clearfix">
+                                <span>KittenBot迷你巡线小车（豪华版）</span>
+                                <a href="" alt="">立即申请</a>
+                            </p>
+                          </div> 
+                          <div class="swiper-slide">
+                            <img src="./assets/images/5a6553514f6c92262.png_f300.jpg" alt="">
+                             <p class="clearfix">
+                                <span>KittenBot迷你巡线小车（豪华版）</span>
+                                <a href="" alt="">立即申请</a>
+                            </p>
+                          </div> 
+                          <div class="swiper-slide">
+                            <img src="./assets/images/5a697a3575e141765.png_f300.jpg" alt="">
+                             <p class="clearfix">
+                                <span>KittenBot迷你巡线小车（豪华版）</span>
+                                <a href="" alt="">立即申请</a>
+                            </p>
+                          </div> 
+                          <div class="swiper-slide">
+                            <img src="./assets/images/5a6721be503104622.png_f300 (1).jpg" alt="">
+                             <p class="clearfix">
+                                <span>KittenBot迷你巡线小车（豪华版）</span>
+                                <a href="" alt="">立即申请</a>
+                            </p>
+                          </div> 
+                          <div class="swiper-slide">
+                            <img src="./assets/images/5a66b3cb4d1822929.png_f300.jpg" alt="">
+                             <p class="clearfix">
+                                <span>KittenBot迷你巡线小车（豪华版）</span>
+                                <a href="" alt="">立即申请</a>
+                            </p>
+                          </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next left-right-pay">
+                            <i class="iconfont icon-youjiantou"></i>
+                        </div>
+                        <div class="swiper-button-prev left-right-pay">
+                            <i class="iconfont icon-zuojiantou"></i>
+                        </div>
+                      </div>
+                      <!-- Swiper JS -->
+                    <!-- 轮播图结束 -->
+                       <!-- 热门众测列表开始 -->
+                        <ul class="new-brand-list pay-list">
+                            <li class="clearfix">
+                                <img src="./assets/images/5a649178513934599.jpg_a100.jpg" alt="">
+                                <div class="new-brand-list-msg clearfix">
+                                    <a href="" alt="">诺基亚 Nokia 7：不只是情怀的回归，也不需要同情的目光</a>
+                                    <div class="special-good clearfix">
+                                        <a href="" alt="" class="Worth-going-buy-left-R">
+                                             赞2159
+                                        </a>
+                                        <a href="" alt="" class="Worth-going-buy-left-R">
+                                             评论13
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <img src="./assets/images/5a61e719f33b8232.jpg_a100.jpg" alt="">
+                                <div class="new-brand-list-msg">
+                                    <a href="" alt="">关于OPPO 203（4K UHD蓝光播放器）的那些事</a>
+                                    <div  class="special-good clearfix">
+                                        <a href="" alt="" class="Worth-going-buy-left-R">
+                                             赞2159
+                                        </a>
+                                        <a href="" alt="" class="Worth-going-buy-left-R">
+                                             评论13
+                                        </a>
+                                    </div>
+                                </div>
+                            </li> 
+                            <li class="clearfix">
+                                <img src="./assets/images/5a6480e31cfe5746.gif_a100.jpg" alt="">
+                                <div class="new-brand-list-msg">
+                                    <a href="" alt="">爱普生CH-TW650投影机 + 一块好幕布 = 家庭影音值得买</a>
+                                    <div  class="special-good clearfix">
+                                        <a href="" alt="" class="Worth-going-buy-left-R">
+                                             赞2159
+                                        </a>
+                                        <a href="" alt="" class="Worth-going-buy-left-R">
+                                             评论13
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    <!-- 热门众测列表结束 -->
+                </div>
+                <!-- 消费众测结束 -->
+                <!-- 海淘，发现，原创，资讯开始 -->
+                <div class="sea clearfix">
+                    <div class="sea-header">
+                        <ul class="clearfix">
+                            <li>海淘</li>
+                            <li>发现</li>
+                            <li>原创</li>
+                            <li>资讯</li>
+                        </ul>
+                    </div>
+                    <!-- 海淘列表开始 -->
+                    <div class="sea-content">
+                    <!-- 海淘开始 -->
+                        <ul class="new-brand-list pay-list">
+                           <li class="clearfix">
+                               <img src="./assets/images/5a0e994911fd17317.jpg_a80.jpg" alt="">
+                               <div class="new-brand-list-msg clearfix">
+                                   <a href="" alt="">DERMASEL 黄金玻尿酸面膜 12ml*10片    €16.01（约￥130）</a>
+                                   <div class="special-good clearfix">
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            赞2159
+                                       </a>
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            评论13
+                                       </a> 
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="clearfix">
+                               <img src="./assets/images/5a1bd1eb80e402570.jpg_a80.jpg" alt="">
+                               <div class="new-brand-list-msg">
+                                   <a href="" alt="">Calvin Klein SELECTION系列 K3V236L6 女士时装腕表    $59.99（约￥440）</a>
+                                   <div  class="special-good clearfix">
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            赞2159
+                                       </a>
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            评论13
+                                       </a>
+                                   </div>
+                               </div>
+                           </li> 
+                           <li class="clearfix">
+                               <img src="./assets/images/5a6b23139db1f7117.gif_a80.jpg" alt="">
+                               <div class="new-brand-list-msg">
+                                   <a href="" alt="">#年货大作战# 锅具篇：锅要怎么选，才能选对又不贵？科学指南看过来！附开锅与锅具保养方法</a>
+                                   <div  class="special-good clearfix">
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            赞2159
+                                       </a>
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            评论13
+                                       </a>
+                                   </div>
+                               </div>
+                           </li>
+                        </ul>
+                    <!-- 海淘结束 -->
+                    <!-- 海淘发现列表开始 -->
+                        <ul class="Super-list clearfix">
+                            <li>
+                              <img src="./assets/images/Super.jpg" alt="">
+                            </li>
+                            <li>
+                              <img src="./assets/images/Super1.jpg" alt="">
+                            </li>
+                            <li>
+                              <img src="./assets/images/Super2.jpg" alt="">
+                            </li> 
+                            <li>
+                              <img src="./assets/images/Super3.jpg" alt="">
+                            </li> 
+                            <li>
+                              <img src="./assets/images/Super4.jpg" alt="">
+                            </li> 
+                            <li>
+                              <img src="./assets/images/Super5.jpg" alt="">
+                            </li> 
+                            <li>
+                              <img src="./assets/images/Super6.jpg" alt="">
+                            </li> 
+                            <li>
+                              <img src="./assets/images/Super7.jpg" alt="">
+                            </li> 
+                            <li>
+                              <img src="./assets/images/Super8.jpg" alt="">
+                             </li>
+                        </ul>
+                        <!-- 原创开始 -->
+                        <ul class="new-brand-list pay-list play-list-create">
+                           <li class="clearfix">
+                               <img src="./assets/images/5a6adf59b8af47830.jpg_a80.jpg" alt="">
+                               <div class="new-brand-list-msg clearfix">
+                                   <a href="" alt="">优质纪录片推荐：春节假期，怎么少得了这些精神食粮！</a>
+                                   <div class="special-good clearfix">
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            赞2159
+                                       </a>
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            评论13
+                                       </a> 
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="clearfix">
+                               <img src="./assets/images/5a6b23139db1f7117.gif_a80.jpg" alt="">
+                               <div class="new-brand-list-msg">
+                                   <a href="" alt="">关于OPPO 203（4K UHD蓝光播放器）的那些事</a>
+                                   <div  class="special-good clearfix">
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            赞2159
+                                       </a>
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            评论13
+                                       </a>
+                                   </div>
+                               </div>
+                           </li> 
+                           <li class="clearfix">
+                               <img src="./assets/images/5a6b0c94c9ca59236.jpg_a80 (1).jpg" alt="">
+                               <div class="new-brand-list-msg">
+                                   <a href="" alt="">爱普生CH-TW650投影机 + 一块好幕布 = 家庭影音值得买</a>
+                                   <div  class="special-good clearfix">
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            赞2159
+                                       </a>
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            评论13
+                                       </a>
+                                   </div>
+                               </div>
+                           </li>
+                        </ul>
+                        <!-- 原创结束 --> 
+                        <!-- 资讯开始 -->
+                        <ul class="new-brand-list pay-list play-list-information">
+                           <li class="clearfix">
+                               <img src="./assets/images/5a693c4313ce63579.jpg_a80.jpg" alt="">
+                               <div class="new-brand-list-msg clearfix">
+                                   <a href="" alt="">诺基亚 Nokia 7：不只是情怀的回归，也不需要同情的目光</a>
+                                   <div class="special-good clearfix">
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            赞2159
+                                       </a>
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            评论13
+                                       </a> 
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="clearfix">
+                               <img src="./assets/images/5a6576c61f4078559.jpg_a80.jpg" alt="">
+                               <div class="new-brand-list-msg">
+                                   <a href="" alt="">关于OPPO 203（4K UHD蓝光播放器）的那些事</a>
+                                   <div  class="special-good clearfix">
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            赞2159
+                                       </a>
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            评论13
+                                       </a>
+                                   </div>
+                               </div>
+                           </li> 
+                           <li class="clearfix">
+                               <img src="./assets/images/5a6576c61a6d62729.jpg_a80.jpg" alt="">
+                               <div class="new-brand-list-msg">
+                                   <a href="" alt="">爱普生CH-TW650投影机 + 一块好幕布 = 家庭影音值得买</a>
+                                   <div  class="special-good clearfix">
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            赞2159
+                                       </a>
+                                       <a href="" alt="" class="Worth-going-buy-left-R">
+                                            评论13
+                                       </a>
+                                   </div>
+                               </div>
+                           </li>
+                        </ul>
+                        <!-- 资讯结束 -->
+                    </div>
+                    <!-- 海淘列表结束 -->
+                    <!-- 查看全部开始 -->
+                    <div class="sea-content-readMore">
+                        <a href="" alt ="">查看更多</a>
+                    </div>
+                    <!-- 查看全部结束 -->
+                    <!-- 广告开始 -->
+                    <div class="sea-New">
+                        <img src="./assets/images/imgad.jpg" alt="">
+                    </div>
+                    <!-- 广告结束 -->
+                </div>
+            <!-- 海淘，发现，原创，资讯结束 -->  
+            </div>
+            <!-- content-right内容结束 -->
+        </div>
+        <!-- content内容结束 -->
+
+
+
+
+        <!-- footer脚部开始 -->
+        <div class="footer">
+            <div class="footer-contains clearfix">
+                <div class="footer-content">    
+                    <!-- 脚部导航开始 -->
+                    <div class="footer-Nav">
+                        <ul class="footer-Nav-list clearfix">
+                            <li><a href="" alt="">关于我们</a></li>
+                            <li><a href="" alt="">联系我们</a></li>
+                            <li><a href="" alt="">招聘专区</a></li>
+                            <li><a href="" alt="">网站地图</a></li>
+                            <li><a href="" alt="">机构账号</a></li>
+                            <li><a href="" alt="">商家平台</a></li>
+                            <li><a href="" alt="">海淘攻略</a></li>
+                            <li><a href="" alt="">海淘晒物</a></li>
+                        </ul>
+                    </div>
+                    <!-- 脚部导航结束 -->
+                    <span>版权所有 本站内容未经书面许可,禁止一切形式的转载。 © copyright 2010-2017 什么值得买. All rights reserved.</span>
+                    <a href="" alt="" class="police">京ICP备12048526号-2<img src="./assets/images/jgwab.png" alt="">京公网安备 11010602100083 电信与信息服务业务经营许可证：京ICP证160379号 广播电视节目制作经营许可证（京）字第07726号</a>
+                    <span>公司名称：北京值得买科技股份有限公司 地址：北京市丰台区洋桥12号院3层至19层 座机：010-56640700</span>
+                </div>
+            </div>
+        </div>
+        <!-- footer脚部结束 -->
+    </body>
+</html>
